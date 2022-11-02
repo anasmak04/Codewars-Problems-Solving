@@ -1,2 +1,2 @@
 # Codewars-Problems-Solving
-Resolve some problems with javascript
+Fix some issues using javascript.
