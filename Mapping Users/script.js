@@ -27,10 +27,14 @@ users.map((item) => {
 })
 
 for(let i = 0 ; i < users.length ; i++){
+    if(users.isActivate !== false)
     List.push(users[i].name)
 }
 
 
 
-users.forEach(e =>(List.push(e.name)));
+users.forEach(e => {
+    if(e.isActivate !== false)
+    List.push(e.name)
+});
 console.log(List)
