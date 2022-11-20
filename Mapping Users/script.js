@@ -20,9 +20,7 @@ const users  = [
 ]
 
 let List = [];
-
-users.map((item) => {
-    if(item.isActivate !== false)
+users.filter((user) => user.isActivate).map((item) => {
     List.push(item.name)
 })
 
