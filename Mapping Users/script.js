@@ -1,5 +1,5 @@
-// write a code to get an array of names into an array of users
-
+// 1 - write a code to get an array of names into an array of users
+// 2 - Get back only users active
 const users  = [
     {
         id : 1,
@@ -22,6 +22,7 @@ const users  = [
 let List = [];
 
 users.map((item) => {
+    if(item.isActivate !== false)
     List.push(item.name)
 })
 
